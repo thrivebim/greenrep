@@ -19,6 +19,7 @@ st.markdown(f""" <style>
 with st.sidebar: st.caption(""":darkgrey[App made by car]""")
 
 st.title('Green Report Tool')
+st.divider()
 st.write('This is a simple check-list and report export for Project with BREEAM or other sustainbility ratings.')
 st.write("Please consider that the app doesn't warn about minimum requirements. Please consult BREEAM Official Documentation to verify you oblige to the minimum criterias.")
 st.divider()
