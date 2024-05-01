@@ -1,2 +1,2 @@
 # greenrep
-a report app for sustainabilit reports
+a report app for sustainability reports
