@@ -3,7 +3,7 @@ import pandas as pd
 import plotly as pio
 
 st.set_page_config(
-        page_title="BREEAM Reporter",
+        page_title="Green Report Tool 1.0",
         page_icon="leaves",
         layout="wide")
 
