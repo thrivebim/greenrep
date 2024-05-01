@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly
+base64
+fpdf
+plotly.io
+plotly_express
