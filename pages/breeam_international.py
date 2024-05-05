@@ -42,6 +42,13 @@ with tab1:
 
         building_type = st.selectbox(("What type of building is?"),("Non Residential","Single Res","Multi Res"))
 
+        if building_proj == "Fully Fitted" and building_type != "Non Residential":
+            st.warning('Wrong combination, please review building properties', icon="⚠️")
+        if building_proj == "Shell and Core" and building_type != "Non Residential":
+            st.warning('Wrong combination, please review building properties', icon="⚠️")
+        if building_proj == "Shell Only" and building_type != "Non Residential":
+            st.warning('Wrong combination, please review building properties', icon="⚠️")
+
     with col2:
         with st.container (height=400):
 
