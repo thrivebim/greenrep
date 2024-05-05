@@ -44,9 +44,17 @@ with tab1:
 
         if building_proj == "Fully Fitted" and building_type != "Non Residential":
             st.warning('Wrong combination, please review building properties', icon="⚠️")
-        if building_proj == "Shell and Core" and building_type != "Non Residential":
+        elif building_proj == "Shell and Core" and building_type != "Non Residential":
             st.warning('Wrong combination, please review building properties', icon="⚠️")
-        if building_proj == "Shell Only" and building_type != "Non Residential":
+        elif building_proj == "Shell Only" and building_type != "Non Residential":
+            st.warning('Wrong combination, please review building properties', icon="⚠️")
+        elif building_proj == "Fully Fitted - Res Only" and building_type != "Single Res":
+            st.warning('Wrong combination, please review building properties', icon="⚠️")
+        elif building_proj == "Fully Fitted - Res Only" and building_type != "Multi Res":
+            st.warning('Wrong combination, please review building properties', icon="⚠️")
+        elif building_proj == "Partially Fitted - Res Only" and building_type != "Single Res":
+            st.warning('Wrong combination, please review building properties', icon="⚠️")
+        elif building_proj == "Partially Fitted - Res Only" and building_type != "Multi Res":
             st.warning('Wrong combination, please review building properties', icon="⚠️")
 
     with col2:
